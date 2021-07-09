@@ -1,0 +1,444 @@
+*{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    list-style-type: none;
+    text-decoration:none;
+}
+hr{
+    border:1px solid #064972;
+}
+.head{
+    width: 100%;
+    height: 80%;
+    background-color: #6f87ff;
+}
+.navLage{
+    display: block;
+    width: 100%;
+    /* position: fixed; */
+    z-index: 10;
+    top: 0px;
+    background-color:#ffffff;
+    height: 60px;
+}
+
+.logo{
+    float: left;
+}
+.navButton{
+    width: 86px;
+    height: 28px;
+    float: left;
+    margin-top: 17px;
+    text-align: center;
+    border-bottom: 2px solid #0c5686;
+    margin-left: 44px;
+}
+.navButton a{
+    width: 200px;
+    height: 70px;
+    color: #000;
+    font-size: 17px;
+}
+.nav{
+    margin-right: 15px;
+    background-color: #ffffff;
+    top: 10px;
+    right: 0px;
+    width: 100%;
+    height: 50px;
+}
+.navimg{
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: right;
+    margin: 8px;
+}
+.navLong{
+    display: none;
+    position: fixed;
+    top:45px;
+    width: 67px;
+    right: 0px;
+    z-index: 10;
+    margin-right: 20px;
+}
+.navLage{
+    display: none;
+}
+.navLong1{
+    font-size: 18px;
+    margin-top: 5px;
+    width: 77px;
+    background-color: #ffffffe3;
+    color: #3e3e3e;
+    text-align: right;
+    padding-right: 7px;
+}
+.jumbotron{
+    /* width: 100%;
+    height: 454px; */
+    background-image:url(../img/01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 50px;
+}
+.access{
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 50px;
+}
+.logo{
+    margin: 7px;
+    width: 150px;
+    height: 50px;
+    background-image: url(../img/H.C-01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: none; */
+}
+.compinTittem{
+    width: 90%;
+    color: #064972;
+    font-size: 17px;
+    height: 20px;
+    padding: 20px;
+}
+.compin1{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 20px; */
+    margin-bottom: 30px;
+}
+.compin{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.access1{
+    width: 400px;
+    height: 225px;
+    margin-top: 20px;
+}
+.compinImg{
+    background-image:url(../img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+}
+.scrviceImg{
+    background-image:url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 301px;
+}
+
+.compinTxt{
+    width: 89%;
+    color: #484848;
+    padding: 40px;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.scrviceTittem{
+    font-size: 19px;
+    height: 25px;
+}
+.scrviceTxt{
+    width: 93%;
+    padding: 17px;
+    font-size: 22px;
+}
+.aaa{
+    padding: 7px;
+    font-size: 15px;
+    width: 20%;
+    height: 20px;
+    color: #484848;
+    border-bottom: 1px solid #000;
+}
+.bbb{
+    padding: 7px;
+    font-size: 15px;
+    width: 55%;
+    height: 20px;
+    color: #484848;
+    border-bottom: 1px solid #000;
+}
+.aa{
+    padding: 5px;
+    font-size: 20px;
+    width: 80%;
+    height: 50px;
+}
+.bb{
+    padding: 5px;
+    font-size: 20px;
+    width: 60%;
+    height: 50px;
+}
+.cc{
+    width: 88%;
+    height: 50px;
+}
+.end{
+    background-color: #3b1354;
+    display: flex;
+    height: 100px;/*需要调试*/
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.endLogo{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 100px;
+    background-image: url(../img/H.C-01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 25px;
+}
+.endAccess{
+width: 50px;
+height: 50px;
+margin: 5px;
+}
+.endName{
+    font-size: 19px;
+    width: 73px;
+    color: #ffffff;
+}
+.endweixin{
+    width: 100%;
+    height: 240px;
+    background-size: contain;
+    background-position: center;
+    display: none;
+    margin-bottom: 50px;
+}
+.telEmail{
+    position: fixed; 
+    left: 0px; 
+    bottom: 0px;
+    z-index: 9999; 
+    width: 100%;
+    height: 55px;
+    border-top:1px solid #586788;
+    float: left;
+}
+.tel99{
+    width: 100%;
+    height: 55px;
+    background-color: #ffffff;;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-right:1px solid #586788;
+    
+}
+.Content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.steff{
+    width:150px;
+    height: 170px;
+    margin: 16px;
+}
+.steff1{
+    width:125px;
+    height: 125px;
+}
+.row-single {
+    width: 98%;
+    line-height: 32px;
+    border: 1px solid #7f92bf;
+    margin:0px auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: stretch;
+    display: flex 
+    }
+.colspan-title{
+    width: 15%;
+    word-break: break-all;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #eaeaea;
+    border-right:1px solid #7f92bf;
+}
+.scale-20 {
+   float: left;
+   width: 71%;
+   height: auto;
+   float: right;
+   line-height: initial;
+   word-break: break-all;
+   padding: 10px;
+   font-size: 20px;
+   }
+.scale-down {
+   width: 160px;
+   float: left;
+   height:100%;
+   border-right:none !important;
+   }
+   .ffff{
+       width: 500px;
+       height: 150px;
+       font-size: 20px;
+       margin-left: 125px;
+       display: none;
+       color:  #0f2f61;
+   }
+   .btn{
+       width: 250px;
+       height: 70px;
+       background-color: cadetblue;
+       margin: 0px auto;
+       margin-top: 25px;
+       border-radius: 10px;
+   }
+   @media screen and (max-width:360px) {
+    .end{
+        height: 150px;/*需要调试*/
+    }
+
+   }
+@media screen and (min-width:900px) {
+    .telEmail{
+        display: none;
+    }
+    .navLage{
+        display: block;
+        width: 100%;
+        top: 0px;
+        background-color: #ffffff;
+        height: 50px;
+    }
+    .logo{
+        float: left;
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .Content{
+        margin: 0px auto;
+    }
+    .row-single {
+        width: 870px;
+        }
+        .ffff{
+            display: block;
+        }
+    /* .endweixin{
+        width: 240px;
+        height: 240px;
+        background-size: contain;
+        background-position: center;
+        display: none;
+        margin-bottom: 50px;
+        position: fixed; 
+       left:700px; 
+       bottom: 0px;
+    } */
+    /* .compinTxt {
+        width: 71%;
+    }
+    /* *{
+        width: 900px;
+        margin: 0px auto;
+    } */
+    /* .compinTittem{
+        width: 555px;
+        margin: 0px auto;
+    }
+    .compinImg{
+        width: 600px;
+    }
+    #fadeIn1{
+        display: block;
+    }
+    #fadeIn2{
+        display: block;
+    }
+    #fadeIn3{
+        display: block;
+    }
+    #fadeIn4{
+        display: block;
+    }
+    #fadeIn5{
+        display: block;
+    }
+    #fadeIn6{
+        display: block;
+    }
+    .scrviceImg{
+        height: 186px;
+        width: 40%;
+    }
+    .scrviceImg1{
+        height: 375px;
+    }
+    .scrviceTxt{
+        width: 66%;       
+       }
+       .scrviceTxt2{
+        width: 26%;  
+    }
+       .aaa{
+        padding: 5px;
+        font-size: 20px;
+        width: 200px;
+        height: 100px;
+        border: 1px #820f0f solid;
+    }
+    .bbb{
+        padding: 5px;
+        font-size: 20px;
+        width: 600px;
+        height: 100px;
+        border: 1px #820f0f solid;
+    }
+    .ccc{
+        width: 811px;
+        height: 50px;
+    } */ 
+} 
