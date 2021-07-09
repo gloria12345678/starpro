@@ -15,17 +15,21 @@
         <div class="navimg" id="nav"></div>
     </div>
     <div class="navLong">
-        <a href="index.html">
+        <a>
             <div class="navLong1">会社情報</div>
         </a>
-        <a href="staff.html">
+        <a onclick="tiao('ct1')">
             <div class="navLong1">スタッフ</div>
+        </a>
+        <a onclick="tiao('ct2')">
+            <div class="navLong1">アクセス</div>
         </a>
     </div>
     <div class="navLage">
         <div class="logo"></div>
         <div class="navButton"><a href="index.html"> 会社情報</a></div>
-        <div class="navButton"><a href="staff.html"> スタッフ</a></div>
+        <div class="navButton"><a onclick="tiao('ct1')"> スタッフ</a></div>
+        <div class="navButton"><a onclick="tiao('ct1')"> アクセス</a></div>
     </div>
     </div>
     <div class="jumbotron" id="jum">
@@ -52,12 +56,35 @@
     </div>
     <div class="compin">
         <div class="aaa" >事業内容</div>
-        <div class="bbb" >不動産仲介、人材派遣</div>
+        <div class="bbb" >不動産仲介,ライブ配信</div>
     </div>
     <br />
-    <br />
     <hr />
-    <div class="compinTittem scrviceTittem">アクセス</div>
+    <div class="compinTittem scrviceTittem" id="ct1">ライブ配信スタッフ</div>
+    <div class="Content">
+      <div class="steff">
+          <div  class="steff1"style="background-image:url(img/staff2.png);"></div>
+       <h5 style="margin-left: 24px;margin-top: 3px;font-size: 16px;">渡辺　唯子</h5>
+      </div>
+      <div class="steff">
+         <div  class="steff1"style="background-image:url(img/staff3.png);"></div>
+       <h5 style="margin-left: 24px;margin-top: 3px;font-size: 16px;">柴田　美緒</h5>
+      </div>
+      <div class="steff">
+         <div  class="steff1"style="background-image:url(img/staff4.png);"></div>
+       <h5 style="margin-left: 24px;margin-top: 3px;font-size: 16px;">田中　衿</h5>
+      </div>
+       </div>
+       <div class="compinTittem scrviceTittem">不動産仲介スタッフ</div>
+      <div class="Content">
+     <div class="steff">
+         <a href="staff1.html" ><div  class="steff1"style="background-image:url(img/staff1.jpeg);"></div>
+      </a>
+      <h5 style="margin-left: 24px;margin-top: 3px;font-size: 16px;">畑中　卓哉</h5>
+     </div>
+      </div>
+      <br />
+    <div class="compinTittem scrviceTittem" id="ct2">アクセス</div>
     <div class="compin">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.7770427890846!2d139.66413631501624!3d35.70710383616044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f296c5961937%3A0x2363065152c071f1!2s5-ch%C5%8Dme-60-2%20Nakano%2C%20Nakano%20City%2C%20Tokyo%20164-0001!5e0!3m2!1szh-CN!2sjp!4v1625468857102!5m2!1szh-CN!2sjp" 
         style="height: 300px; width: 75%; margin-bottom: 30px;"   style="border:0;" allowfullscreen="" loading="lazy"></iframe>

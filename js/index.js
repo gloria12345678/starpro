@@ -13,7 +13,22 @@ function fadein(id,no){
     }
   }); 
 }
+function tiao(i) {
+  var cur = document.getElementById(i);
+  getPosition(cur);
+}
 
+function getPosition(e) {
+  var t = e.offsetTop;
+  var l = e.offsetLeft;
+  while (e = e.offsetParent) {
+      t += e.offsetTop;
+      l += e.offsetLeft;
+  }
+  $("html,body").animate({
+      scrollTop: t
+  }, 600);
+}
 $(document).ready(function(){
   $("body").addClass("body");
     // $(".jumbotron").css({"height":winHeight+"px"})
@@ -32,25 +47,3 @@ $(document).ready(function(){
     let divHeight = winWidth/_widthAndPercent;
       Id.style.height = divHeight+"px";
   }
-  var myApi1 ="https://test-cms-alpha.herokuapp.com/sites/2/tweets.json"
-  var myList1 = document.getElementById('fadeIn1');
-  function loadnews(){
-    let xhr = new XMLHttpRequest();
-    xhr.open("GET",myApi1,true);
-    xhr.onload = function(){
-        if(this.status == 200){
-            let json =new Array
-            json = JSON.parse(this.responseText);
-            console.log(json);
-            for(var i = 0; i < 1; i++) {
-                var listItem = document.createElement('div');
-                listItem.innerHTML = '<p>' + json[i].created_at.substring(0,10)+ '</p>';
-                listItem.innerHTML +='<hr>';
-                listItem.innerHTML +='<p>' + json[i].content + '<p>';
-                  myList1.appendChild(listItem);
-            }
-        }              
-    }
-    xhr.send();
-  }
-  loadnews()
